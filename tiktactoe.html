@@ -1,0 +1,401 @@
+<html>
+<head>
+<title>tic tac to sir</title>
+<style>
+#h
+{
+text-decoration:overline underline;
+font-weight:bold;
+text-shadow: 1px 3px 5px grey;
+font-size:40px;
+}
+#hh
+{
+font-weight:bold;
+text-shadow: 1px 3px 5px grey;
+font-size:40px;
+font-style:obique;
+color:blue;
+
+
+
+}
+
+#a1
+{
+border-width:0px 3px 3px 0px;
+border-style:solid;
+border-color:black;
+}
+
+#a2
+{
+border-width:0px 3px 3px 3px;
+border-style:solid;
+border-color:black;
+}
+
+#a3
+{
+border-width:0px 0px 3px 3px;
+border-style:solid;
+border-color:black;
+}
+
+#a4
+{
+border-width:3px 3px 3px 0px;
+border-style:solid;
+border-color:black;
+}
+
+#a5
+{
+border-width:3px 3px 3px 3px;
+border-style:solid;
+border-color:black;
+}
+
+#a6
+{
+border-width:3px 0px 3px 3px;
+border-style:solid;
+border-color:black;
+}
+
+#a7
+{
+border-width:3px 3px 0px 0px;
+border-style:solid;
+border-color:black;
+}
+
+#a8
+{
+border-width:3px 3px 0px 3px;
+border-style:solid;
+border-color:black;
+}
+
+#a9
+{
+border-width:3px 0px 0px 3px;
+border-style:solid;
+border-color:black;
+}
+
+#ho
+{
+font-weight:bold;
+text-shadow: 1px 3px 5px grey;
+font-size:40px;
+color:red;
+
+
+
+
+}
+
+</style>
+
+
+
+<script>
+var currentPlayer =false;
+var img1="F";
+var img2="F";
+var img3="F";
+var img4="F";
+var img5="F";
+var img6="F";
+var img7="F";
+var img8="F";
+var img9="F";
+
+  function player(ob)
+{
+
+
+    if(ob=="t1"&&img1=="F")
+  {
+       if(currentPlayer==false)
+        {
+         document.getElementById("a1").src="cir.jpg"
+         img1="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+          document.getElementById("a1").src="cro.jpg"
+         img1="y";
+          currentPlayer=false;
+       }
+check();
+    
+}
+
+if(ob=="t2"&&img2=="F")
+{
+       if(currentPlayer==false)
+       {
+       document.getElementById("a2").src="cir.jpg"
+         img2="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+          document.getElementById("a2").src="cro.jpg"
+         img2="y";
+          currentPlayer=false;
+       }
+check();
+       
+}
+  
+if(ob=="t3"&&img3=="F")
+{
+       if(currentPlayer==false)
+       {
+         document.getElementById("a3").src="cir.jpg"
+         img3="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+          document.getElementById("a3").src="cro.jpg"
+         img3="y";
+          currentPlayer=false;
+       }
+check();
+    
+}
+if(ob=="t4"&&img4=="F")
+{
+       if(currentPlayer==false)
+       {
+        document.getElementById("a4").src="cir.jpg"
+         img4="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+         document.getElementById("a4").src="cro.jpg"
+         img4="y";
+          currentPlayer=false;
+       }
+check();
+    
+}
+if(ob=="t5"&&img5=="F")
+{
+       if(currentPlayer==false)
+       {
+        document.getElementById("a5").src="cir.jpg"
+         img5="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+         document.getElementById("a5").src="cro.jpg"
+         img5="y";
+          currentPlayer=false;
+       }
+check();
+
+}
+if(ob=="t6"&&img6=="F")
+{
+       if(currentPlayer==false)
+       {
+         document.getElementById("a6").src="cir.jpg"
+         img6="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+          document.getElementById("a6").src="cro.jpg"
+         img6="y";
+          currentPlayer=false;
+       }
+check();
+
+}
+if(ob=="t7"&&img7=="F")
+{
+       if(currentPlayer==false)
+       {
+           document.getElementById("a7").src="cir.jpg"
+         img7="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+          document.getElementById("a7").src="cro.jpg"
+         img7="y";
+          currentPlayer=false;
+       }
+check();
+
+}
+ 
+if(ob=="t8"&&img8=="F")
+{
+       if(currentPlayer==false)
+       {
+          document.getElementById("a8").src="cir.jpg"
+         img8="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+            document.getElementById("a8").src="cro.jpg"
+         img8="y";
+          currentPlayer=false;
+       }
+check();
+
+}
+
+if(ob=="t9"&&img9=="F")
+{
+       if(currentPlayer==false)
+       {
+         document.getElementById("a9").src="cir.jpg"
+         img9="x";
+          currentPlayer=true;
+        }
+     else 
+      {
+          document.getElementById("a9").src="cro.jpg"
+         img9="y";
+          currentPlayer=false;
+       }
+check();
+}
+
+}
+
+
+function check()
+{
+if(img1=="x"&&img2=="x"&&img3=="x"||img4=="x"&&img5=="x"&&img6=="x"||img7=="x"&&img8=="x"&&img9=="x"||img1=="x"&&img4=="x"&&img7=="x"||img2=="x"&&img5=="x"&&img8=="x"||img3=="x"&&img6=="x"&&img9=="x"||img1=="x"&&img5=="x"&&img9=="x"||img3=="x"&&img5=="x"&&img7=="x")   
+   {
+   document.getElementById("im").src="winner.gif"
+ document.getElementById("i").src="trophy.gif"
+
+var ne=document.createElement('Li');
+var tn=document.createTextNode('O winner balle balle ');
+ne.appendChild(tn);
+var p=document.getElementById('Ho')
+p.appendChild(ne);
+
+
+
+
+
+
+     }
+else if(img1=="y"&&img2=="y"&&img3=="y"||img4=="y"&&img5=="y"&&img6=="y"||img7=="y"&&img8=="y"&&img9=="y"||img1=="y"&&img4=="y"&&img7=="y"||img2=="y"&&img5=="y"&&img8=="y"||img3=="y"&&img6=="y"&&img9=="y"||img1=="y"&&img5=="y"&&img9=="y"||img3=="y"&&img5=="y"&&img7=="y")   
+   {
+document.getElementById("im").src="winner.gif"
+ document.getElementById("i").src="trophy.gif"
+
+var ne=document.createElement('Li');
+var tn=document.createTextNode('X winner balle balle ');
+ne.appendChild(tn);
+var p=document.getElementById('Ho')
+p.appendChild(ne);
+
+   
+    }
+
+  
+}
+
+
+      
+</script>
+
+</head>
+
+
+<body>
+<h1  id='h' align=center><i>tic tac game</i> </h1>
+<h2 id='hh' align=center> lets play </h2>
+<div>
+
+<table align=left>
+
+<tr>
+<td name="t1" onclick=player("t1") >
+<p align=center>
+<img id='a1'  width=150 height =100>
+</p>
+</td>
+
+<td name="t2" onclick=player("t2")>
+<p align=center>
+<img id='a2'  width=150 height =100 >
+</p>
+</td >
+<td name="t3" onclick=player("t3")>
+<p align=center>
+<img id='a3'  width=150 height =100 >
+</p>
+</td>
+</tr>
+<tr>
+<td name="t4" onclick=player("t4")>
+<p align=center>
+<img id='a4'  width=150 height =100  >
+</p>
+</td>
+
+<td name="t5" onclick=player("t5")>
+<p align=center>
+<img id='a5' width=150 height =100  >
+</p>
+</td>
+<td name="t6" onclick=player("t6")>
+<p align=center>
+<img id='a6'  width=150 height =100 >
+</p>
+</td>
+</tr>
+<tr>
+<td name="t7" onclick=player("t7")>
+<p align=center>
+<img id='a7'  width=150 height =100   >
+</p>
+</td>
+
+<td name="t8" onclick=player("t8")>
+<p align=center>
+<img id='a8'  width=150 height =100  >
+</p>
+</td>
+<td name="t9" onclick=player("t9")>
+<p align=center>
+<img id='a9'   width=150 height =100  >
+</p>
+</td>
+</tr>
+</table>
+<p align=center>
+<img  id='im'  width=150 height=300 >
+
+<img id='i' width=150 height=300>
+<i><h1 id='Ho' align=center> </h1></i>
+</p>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+</html>
