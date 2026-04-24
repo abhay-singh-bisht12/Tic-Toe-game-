@@ -8,7 +8,7 @@
 ![home](cro.jpg)
 
 
-![home](trophy.jpg)
+![home](trophy.gif)
 
 
-![home](winner.jpg)
+![home](winner.gif)
