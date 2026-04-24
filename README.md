@@ -1,12 +1,14 @@
 # Tic-Toe-game-
 
-(cir.jpg)
 
-### resume Page
-![Resume](images/resume.png)
 
-### Result Page
-![Result](images/result.png)
+![home]((cir.jpg))
 
-### Charts
-![Charts](images/chart.png)
+
+![home](cro.jpg)
+
+
+![home](images/trophy.jpg)
+
+
+![home](images/winner.jpg)
