@@ -5,10 +5,10 @@
 ![home]((cir.jpg))
 
 
-![home](cro.jpg)
+![home]((cro.jpg))
 
 
-![home](images/trophy.jpg)
+![home]((trophy.jpg))
 
 
-![home](images/winner.jpg)
+![home]((winner.jpg))
