@@ -1,7 +1,7 @@
 # Tic-Toe-game-
 
 
-
+![home](home.png)
 ![home](cir.jpg)
 
 
