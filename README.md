@@ -23,7 +23,7 @@ A simple and interactive **Tic Tac Toe Game** built using **HTML, CSS, and JavaS
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/home.png" width="45%">
-  <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/cir.jpg" width="45%">
+  <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/cir.jpg" width="40%">
 </p>
 
 <p align="center">
