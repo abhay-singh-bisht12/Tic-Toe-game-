@@ -1,14 +1,35 @@
-# Tic-Toe-game-
+# 🎮 Tic Tac Toe Game
 
+A simple and interactive **Tic Tac Toe Game** built using **HTML, CSS, and JavaScript**.
 
-![home](home.png)
-![home](cir.jpg)
+## 🚀 Features
 
+- 2 Player Game
+- O and X turn-based gameplay
+- Winner detection
+- Winner animation using GIF
+- Trophy display after winning
+- Simple and clean UI
 
-![home](cro.jpg)
+## 🛠️ Technologies Used
 
+- HTML
+- CSS
+- JavaScript
 
-![home](trophy.gif)
+## 📸 Project Screenshots
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/home.png" width="45%">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cir.png" width="45%">
+</p>
 
-![home](winner.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cro.png" width="45%">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/trophy.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/winner.png" width="60%">
+</p>
+
