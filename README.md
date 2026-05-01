@@ -21,15 +21,15 @@ A simple and interactive **Tic Tac Toe Game** built using **HTML, CSS, and JavaS
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/home.png" width="45%">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cir.png" width="45%">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cir.jpg" width="45%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cro.png" width="45%">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/trophy.png" width="45%">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cro.jpg" width="45%">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/trophy.gif" width="45%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/winner.png" width="60%">
+  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/winner.gif" width="60%">
 </p>
 
