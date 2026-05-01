@@ -19,17 +19,18 @@ A simple and interactive **Tic Tac Toe Game** built using **HTML, CSS, and JavaS
 
 ## 📸 Project Screenshots
 
+## 📸 Project Screenshots
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/home.png" width="45%">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cir.jpg" width="45%">
+  <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/home.png" width="45%">
+  <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/cir.jpg" width="45%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/cro.jpg" width="45%">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/trophy.gif" width="45%">
+  <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/cro.jpg" width="45%">
+  <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/trophy.gif" width="45%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/winner.gif" width="60%">
+  <img src="https://raw.githubusercontent.com/abhay-singh-bisht12/Tic-Toe-game-/main/winner.gif" width="60%">
 </p>
-
